@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/deepstream:6.2-devel
+FROM nvcr.io/nvidia/deepstream:6.2-triton
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV LANG C.UTF-8

@@ -13,5 +13,5 @@ docker run \
 	-v /tmp/.X11-unix/:/tmp/.X11-unix \
 	-v $PWD:/workspace \
 	-w /workspace \
-	--name ds62-container \
-	fcam_od
+	--name ds-parallel-container \
+	ds-parallel:6.2
